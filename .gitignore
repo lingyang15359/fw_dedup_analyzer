@@ -1,0 +1,22 @@
+# Customer firewall configs — never publish
+cfgs/
+*.txt
+
+# Generated reports
+*_report.md
+*_report.json
+duplicate_analysis_report.*
+all_firewalls_*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Internal spec, do not publish
+system_prompt_md
